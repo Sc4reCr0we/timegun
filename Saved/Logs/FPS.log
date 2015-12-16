@@ -1,157 +1,126 @@
-﻿[2015.12.16-16.53.11:485][  0]Log file open, 12/16/15 17:53:11
-[2015.12.16-16.53.11:485][  0]LogInit:Display: Running engine for game: FPS
-[2015.12.16-16.53.11:485][  0]LogPlatformFile: Not using cached read wrapper
-[2015.12.16-16.53.11:485][  0]LogInit:Display: RandInit(202500512) SRandInit(202500513).
-[2015.12.16-16.53.11:485][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.12.16-16.53.11:485][  0]LogStats: Stats thread started at 0.230817
-[2015.12.16-16.53.11:485][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
-[2015.12.16-16.53.11:485][  0]LogInit: API Version: 2758231
-[2015.12.16-16.53.11:485][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
-[2015.12.16-16.53.11:485][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2015.12.16-16.53.11:485][  0]LogInit: Build Configuration: Development
-[2015.12.16-16.53.11:485][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2015.12.16-16.53.11:485][  0]LogInit: Command line:  
-[2015.12.16-16.53.11:485][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
-[2015.12.16-16.53.11:485][  0]LogInit: Rocket: 1
-[2015.12.16-16.53.11:492][  0]LogInit: Using libcurl 7.41.0
-[2015.12.16-16.53.11:492][  0]LogInit:  - built for x86_64-pc-win32
-[2015.12.16-16.53.11:492][  0]LogInit:  - supports SSL with WinSSL
-[2015.12.16-16.53.11:492][  0]LogInit:  - other features:
-[2015.12.16-16.53.11:492][  0]LogInit:      CURL_VERSION_SSL
-[2015.12.16-16.53.11:492][  0]LogInit:      CURL_VERSION_IPV6
-[2015.12.16-16.53.11:492][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.12.16-16.53.11:492][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.12.16-16.53.11:492][  0]LogInit:      CURL_VERSION_IDN
-[2015.12.16-16.53.11:492][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.12.16-16.53.11:492][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.12.16-16.53.11:492][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.12.16-16.53.11:492][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.12.16-16.53.11:492][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.12.16-16.53.11:501][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.12.16-16.53.11:506][  0]LogInit: Object subsystem initialized
-[2015.12.16-16.53.11:507][  0]LogInit: Selected Device Profile: [Windows]
-[2015.12.16-16.53.11:507][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.12.16-16.53.11:515][  0]LogInit: Computer: 3SE-SPEL-10
-[2015.12.16-16.53.11:515][  0]LogInit: User: helgem
-[2015.12.16-16.53.11:515][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.12.16-16.53.11:515][  0]LogInit: High frequency timer resolution =3.123232 MHz
-[2015.12.16-16.53.11:515][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2015.12.16-16.53.11:515][  0]LogMemory: Platform Memory Stats for Windows
-[2015.12.16-16.53.11:515][  0]LogMemory: Process Physical Memory: 56.56 MB used, 56.56 MB peak
-[2015.12.16-16.53.11:515][  0]LogMemory: Process Virtual Memory: 58.27 MB used, 58.27 MB peak
-[2015.12.16-16.53.11:515][  0]LogMemory: Physical Memory: 4097.49 MB used, 8135.23 MB total
-[2015.12.16-16.53.11:515][  0]LogMemory: Virtual Memory: 352.71 MB used, 8388608.00 MB total
-[2015.12.16-16.53.11:567][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2015.12.16-16.53.11:982][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.12.16-16.53.11:982][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 3811MB of shared system memory, 1 output[s]
-[2015.12.16-16.53.11:982][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.12.16-16.53.11:985][  0]LogD3D11RHI: !Direct3DDevice
-[2015.12.16-16.53.11:985][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.12.16-16.53.11:992][  0]LogD3D11RHI: Async texture creation enabled
-[2015.12.16-16.53.12:005][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (../../../../../../FPS/Intermediate/Shaders/WorkingDirectory/8104/).
-[2015.12.16-16.53.12:005][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/helgem/AppData/Local/Temp/UnrealShaderWorkingDir/4351F3A8473A171606EE80A2ADB46748/'.
-[2015.12.16-16.53.12:005][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.12.16-16.53.12:852][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.12.16-16.53.12:857][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.12.16-16.53.12:861][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.12.16-16.53.12:865][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.12.16-16.53.12:869][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.12.16-16.53.12:873][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.12.16-16.53.12:876][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.12.16-16.53.12:878][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.12.16-16.53.12:881][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.12.16-16.53.12:884][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.12.16-16.53.12:887][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.12.16-16.53.12:894][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2015.12.16-16.53.12:894][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.12.16-16.53.12:895][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.12.16-16.53.12:912][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.12.16-16.53.12:914][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.12.16-16.53.12:917][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.12.16-16.53.12:920][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.12.16-16.53.12:920][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.12.16-16.53.13:003][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.12.16-16.53.13:150][  0]LogDerivedDataCache: Loaded boot cache 0.15s 41MB C:/Users/helgem/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2015.12.16-16.53.13:150][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/helgem/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2015.12.16-16.53.13:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.12.16-16.53.13:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.12.16-16.53.13:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.12.16-16.53.13:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.12.16-16.53.13:209][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.12.16-16.53.13:221][  0]LogDerivedDataCache: Using Local data cache path C:/Users/helgem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.12.16-16.53.13:532][  0]LogInit: Selected Device Profile: [Windows]
-[2015.12.16-16.53.13:533][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.12.16-16.53.13:567][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.12.16-16.53.13:567][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.12.16-16.53.13:860][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.12.16-16.53.15:482][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.12.16-16.53.17:582][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
-[2015.12.16-16.53.17:738][  0]SourceControl: Info Source control is disabled
-[2015.12.16-16.53.17:738][  0]SourceControl: Info Source control is disabled
-[2015.12.16-16.53.17:747][  0]SourceControl: Info Source control is disabled
-[2015.12.16-16.53.17:756][  0]SourceControl: Info Source control is disabled
-[2015.12.16-16.53.17:965][  0]LogObj: 28633 objects as part of root set at end of initial load.
-[2015.12.16-16.53.17:965][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
-[2015.12.16-16.53.18:019][  0]LogEngine: Initializing Engine...
-[2015.12.16-16.53.18:020][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2015.12.16-16.53.18:022][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.12.16-16.53.18:141][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.12.16-16.53.18:146][  0]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.12.16-16.53.18:163][  0]LogInit: FAudioDevice initialized.
-[2015.12.16-16.53.18:182][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/helgem/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2015.12.16-16.53.18:185][  0]LogInit: Texture streaming: Enabled
-[2015.12.16-16.53.18:190][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.12.16-16.53.18:190][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
-[2015.12.16-16.53.18:190][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 997660b3490d783179a4a5a224d43459|62381672df30497b996314ffa4e260ba|2657d383-c71c-4f87-999b-40923e3cd8a0
-[2015.12.16-16.53.18:190][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.12.16-16.53.18:213][  0]LogInit: Transaction tracking system initialized
-[2015.12.16-16.53.18:240][  0]BlueprintLog: New page: Editor Load
-[2015.12.16-16.53.18:468][  0]LocalizationService: Info Localization service is disabled
-[2015.12.16-16.53.18:537][  0]LogConsoleResponse:Display: 
-[2015.12.16-16.53.18:651][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.12.16-16.53.18:659][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Content/' took 0.01s
-[2015.12.16-16.53.18:708][  0]SourceControl: Info Source control is disabled
-[2015.12.16-16.53.18:708][  0]Cmd: MAP LOAD FILE="../../../../../../FPS/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.12.16-16.53.18:709][  0]LightingResults: New page: Lighting Build
-[2015.12.16-16.53.18:712][  0]MapCheck: New page: Map Check
-[2015.12.16-16.53.18:712][  0]LightingResults: New page: Lighting Build
-[2015.12.16-16.53.18:721][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023886AC0
-[2015.12.16-16.53.18:832][  0]LogLinker:Warning: Asset '../../../../../../FPS/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.12.16-16.53.19:178][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2015.12.16-16.53.19:184][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.12.16-16.53.19:185][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.12.16-16.53.19:227][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.225ms to complete.
-[2015.12.16-16.53.19:227][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.519
-[2015.12.16-16.53.19:324][  0]LogCollectionManager: Loaded 0 collections in 0.001916 seconds
-[2015.12.16-16.53.19:359][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Saved/Collections/' took 0.01s
-[2015.12.16-16.53.19:359][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Content/Developers/helgem/Collections/' took 0.01s
-[2015.12.16-16.53.19:359][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Content/Collections/' took 0.01s
-[2015.12.16-16.53.19:359][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2015.12.16-16.53.19:365][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1893 classes and 338 folders.
-[2015.12.16-16.53.19:370][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.12.16-16.53.19:448][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2015.12.16-16.53.19:452][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2015.12.16-16.53.19:473][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.12.16-16.53.19:518][  0]LogLoad: Full Startup: 8.61 seconds (BP compile: 0.10 seconds)
-[2015.12.16-16.53.19:528][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2015.12.16-16.53.19:582][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2015.12.16-16.53.19:713][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
-[2015.12.16-16.53.19:833][  3]LogAssetRegistry: Asset discovery search completed in 2.2614 seconds
-[2015.12.16-16.53.19:833][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2015.12.16-16.53.19:833][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2015.12.16-16.53.23:431][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2015.12.16-16.53.23:431][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2015.12.16-16.53.23:431][408]PIE: New page: PIE session: FirstPersonExampleMap (Dec 16, 2015, 6:53:23 PM)
-[2015.12.16-16.53.23:431][408]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2015.12.16-16.53.23:453][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021911s)
-[2015.12.16-16.53.23:454][408]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2015.12.16-16.53.23:454][408]LogPlayLevel: PIE: World Init took: (0.000916s)
-[2015.12.16-16.53.23:454][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023085s)
-[2015.12.16-16.53.23:454][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
-[2015.12.16-16.53.23:454][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.12.16-16.53.23:479][408]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.12.16-16.53.23:485][408]LogInit: FAudioDevice initialized.
-[2015.12.16-16.53.23:531][408]LogLinker:Warning: Asset '../../../../../../FPS/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.12.16-16.53.23:549][408]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2015.12.16-16.53.23:553][408]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.12.16-17.53.23
-[2015.12.16-16.53.23:553][408]LogActor:Warn
+﻿[2015.12.16-17.01.39:618][  0]Log file open, 12/16/15 18:01:39
+[2015.12.16-17.01.39:618][  0]LogInit:Display: Running engine for game: FPS
+[2015.12.16-17.01.39:618][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.16-17.01.39:618][  0]LogInit:Display: RandInit(1789497806) SRandInit(1789497807).
+[2015.12.16-17.01.39:618][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.16-17.01.39:618][  0]LogStats: Stats thread started at 0.229793
+[2015.12.16-17.01.39:618][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.16-17.01.39:618][  0]LogInit: API Version: 2758231
+[2015.12.16-17.01.39:618][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.16-17.01.39:618][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.16-17.01.39:618][  0]LogInit: Build Configuration: Development
+[2015.12.16-17.01.39:618][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.16-17.01.39:618][  0]LogInit: Command line:  
+[2015.12.16-17.01.39:618][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.16-17.01.39:618][  0]LogInit: Rocket: 1
+[2015.12.16-17.01.39:624][  0]LogInit: Using libcurl 7.41.0
+[2015.12.16-17.01.39:624][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.16-17.01.39:624][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.16-17.01.39:624][  0]LogInit:  - other features:
+[2015.12.16-17.01.39:624][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.16-17.01.39:624][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.16-17.01.39:624][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.16-17.01.39:624][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.16-17.01.39:624][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.16-17.01.39:624][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.16-17.01.39:624][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.16-17.01.39:624][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.16-17.01.39:624][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.16-17.01.39:624][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.16-17.01.39:631][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.16-17.01.39:636][  0]LogInit: Object subsystem initialized
+[2015.12.16-17.01.39:637][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.16-17.01.39:637][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.16-17.01.39:644][  0]LogInit: Computer: 3SE-SPEL-10
+[2015.12.16-17.01.39:644][  0]LogInit: User: helgem
+[2015.12.16-17.01.39:644][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.16-17.01.39:644][  0]LogInit: High frequency timer resolution =3.123232 MHz
+[2015.12.16-17.01.39:644][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.12.16-17.01.39:644][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.16-17.01.39:644][  0]LogMemory: Process Physical Memory: 56.61 MB used, 56.61 MB peak
+[2015.12.16-17.01.39:644][  0]LogMemory: Process Virtual Memory: 58.27 MB used, 58.27 MB peak
+[2015.12.16-17.01.39:644][  0]LogMemory: Physical Memory: 4253.12 MB used, 8135.23 MB total
+[2015.12.16-17.01.39:644][  0]LogMemory: Virtual Memory: 352.71 MB used, 8388608.00 MB total
+[2015.12.16-17.01.39:681][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.16-17.01.40:088][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.12.16-17.01.40:088][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 3811MB of shared system memory, 1 output[s]
+[2015.12.16-17.01.40:088][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.16-17.01.40:092][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.16-17.01.40:092][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.16-17.01.40:100][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.16-17.01.40:113][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (../../../../../../FPS/Intermediate/Shaders/WorkingDirectory/7240/).
+[2015.12.16-17.01.40:113][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/helgem/AppData/Local/Temp/UnrealShaderWorkingDir/EA39F7604DAF3F556507028B72EBBD41/'.
+[2015.12.16-17.01.40:113][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.16-17.01.40:830][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.16-17.01.40:834][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.16-17.01.40:838][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.16-17.01.40:842][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.16-17.01.40:846][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.16-17.01.40:848][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.16-17.01.40:851][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.16-17.01.40:854][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.16-17.01.40:856][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.16-17.01.40:859][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.16-17.01.40:862][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.16-17.01.40:868][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.16-17.01.40:868][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.16-17.01.40:868][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.16-17.01.40:884][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.16-17.01.40:886][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.16-17.01.40:888][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.16-17.01.40:891][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.16-17.01.40:891][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.16-17.01.40:958][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.16-17.01.40:996][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/helgem/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.16-17.01.40:996][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/helgem/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.16-17.01.40:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.16-17.01.40:997][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.16-17.01.40:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.16-17.01.40:997][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.16-17.01.41:050][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.16-17.01.41:061][  0]LogDerivedDataCache: Using Local data cache path C:/Users/helgem/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.16-17.01.41:219][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.16-17.01.41:220][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.16-17.01.41:249][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.16-17.01.41:249][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.16-17.01.41:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.16-17.01.42:495][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.16-17.01.44:167][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.12.16-17.01.44:313][  0]SourceControl: Info Source control is disabled
+[2015.12.16-17.01.44:517][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.16-17.01.44:517][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.16-17.01.44:569][  0]LogEngine: Initializing Engine...
+[2015.12.16-17.01.44:571][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.16-17.01.44:571][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.16-17.01.44:690][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.16-17.01.44:695][  0]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.16-17.01.44:711][  0]LogInit: FAudioDevice initialized.
+[2015.12.16-17.01.44:730][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/helgem/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.16-17.01.44:732][  0]LogInit: Texture streaming: Enabled
+[2015.12.16-17.01.44:737][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.16-17.01.44:737][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.16-17.01.44:737][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 997660b3490d783179a4a5a224d43459|62381672df30497b996314ffa4e260ba|2657d383-c71c-4f87-999b-40923e3cd8a0
+[2015.12.16-17.01.44:737][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.16-17.01.44:756][  0]LogInit: Transaction tracking system initialized
+[2015.12.16-17.01.44:782][  0]BlueprintLog: New page: Editor Load
+[2015.12.16-17.01.44:852][  0]LocalizationService: Info Localization service is disabled
+[2015.12.16-17.01.44:912][  0]LogConsoleResponse:Display: 
+[2015.12.16-17.01.45:016][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.16-17.01.45:062][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Content/' took 0.01s
+[2015.12.16-17.01.45:062][  0]Cmd: MAP LOAD FILE="../../../../../../FPS/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.16-17.01.45:062][  0]LightingResults: New page: Lighting Build
+[2015.12.16-17.01.45:065][  0]MapCheck: New page: Map Check
+[2015.12.16-17.01.45:065][  0]LightingResults: New page: Lighting Build
+[2015.12.16-17.01.45:074][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002410AAC0
+[2015.12.16-17.01.45:179][  0]LogLinker:Warning: Asset '../../../../../../FPS/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.16-17.01.45:495][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.12.16-17.01.45:502][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.16-17.01.45:503][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.16-17.01.45:547][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.41ms to complete.
+[2015.12.16-17.01.45:547][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.485
+[2015.12.16-17.01.45:643][  0]LogCollectionManager: Loaded 0 collections in 0.001776 seconds
+[2015.12.16-17.01.45:680][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Saved/Collections/' took 0.01s
+[2015.12.16-17.01.45:680][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Content/Developers/helgem/Collections/' took 0.01s
+[2015.12.16-17.01.45:680][  0]LogFileCache: Scanning file cache for directory 'C:/FPS/Content/Collections/' took 0.01s
+[2015.12.16-17.01.45:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.16-17.01.45:688][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 1893 classes and 338 fo
